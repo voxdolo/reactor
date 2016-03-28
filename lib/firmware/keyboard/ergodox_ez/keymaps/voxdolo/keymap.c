@@ -36,7 +36,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,          KC_Q,         KC_W,          KC_E,   KC_R,   KC_T,   KC_LPRN,
         KC_ESC,          KC_A,         KC_S,          KC_D,   KC_F,   KC_G,
         KC_LSFT,         CTL_T(KC_Z),  ALT_T(KC_X),   KC_C,   KC_V,   KC_B,   ALL_T(KC_LBRC),
-        LGUI(LCTL(KC_K)), LGUI(LCTL(KC_SCLN)) ,    LGUI(LCTL(LALT(KC_M))),       KC_LCTL, KC_LGUI,
+        LGUI(LCTL(KC_K)), LGUI(LCTL(KC_SCLN)) ,  LGUI(LCTL(LALT(KC_M))),    KC_LALT, KC_LGUI,
                                                                 KC_MEDIA_PLAY_PAUSE,TG(SYMB),
                                                                                     MO(SYMB),
                                                              KC_LSFT, CTL_T(KC_ESC), KC_VOLD,
